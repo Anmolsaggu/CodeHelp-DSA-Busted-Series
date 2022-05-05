@@ -46,7 +46,7 @@ Node *buildTree(string str)
         Node *currNode = queue.front();
         queue.pop();
 
-        // Get the current Node's value from the string
+        // Get the current Node's vLue from the string
         string currVal = ip[i];
 
         // If the left child is not null
